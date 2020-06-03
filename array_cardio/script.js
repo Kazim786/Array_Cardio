@@ -25,15 +25,28 @@
         
         //Inventors array is a list of objects
 
-        const fifteen = inventors.filter(function(){
-            for(var i = 0; i < inventors.length; i++){
-                if(inventors[i].year > 1500 && inventors[i].years <= 1599){
-                    const newArr = []
-                    newArr.push(inventors[i].year)
-                }
+        //my work:
+
+        // const fifteen = inventors.filter(function(){
+        //     for(var i = 0; i < inventors.length; i++){
+        //         if(inventors[i].year > 1500 && inventors[i].years <= 1599){
+        //             const newArr = []
+        //             newArr.push(inventors[i].year)
+        //         }
                 
-            }
-        })
+        //     }
+        // })
+
+        //******
+        // wesbos's code
+        // const fifteen = inventors.filter(function(inventor){
+        //     if(inventor.year >= 1500 && inventor.year <= 1599){
+        //         return true;
+        //     }
+        // });
+        // console.table(fifteen);
+
+
         
         // Array.prototype.map()
         // 2. Give us an array of the inventors first and last names
