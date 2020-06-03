@@ -22,7 +22,19 @@
     
         // Array.prototype.filter()
         // 1. Filter the list of inventors for those who were born in the 1500's
-    
+        
+        //Inventors array is a list of objects
+
+        const fifteen = inventors.filter(function(){
+            for(var i = 0; i < inventors.length; i++){
+                if(inventors[i].year > 1500 && inventors[i].years <= 1599){
+                    const newArr = []
+                    newArr.push(inventors[i].year)
+                }
+                
+            }
+        })
+        
         // Array.prototype.map()
         // 2. Give us an array of the inventors first and last names
     
