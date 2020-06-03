@@ -67,7 +67,7 @@
                 return -1
             }
         })
-        console.log(age)
+        console.table(age)
         // Array.prototype.reduce()
         // 4. How many years did all the inventors live all together?
     
